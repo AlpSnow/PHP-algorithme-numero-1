@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercices Algorithmes</title>
+    <title>Algorithmes PHP</title>
 </head>
 
 <body>
     <br>
-    <h3>Exercices Algorithmes :</h3>
+    <h3>Algorithmes PHP :</h3>
 
 
-    <h4>Exercice 1</h4>
+    <h4>1</h4>
     <!-- Ecrire un algorithme permettant de compter le nombre de caractères contenus dans une phrase -->
 
     <?php
@@ -22,13 +22,13 @@
     <p> La phrase " <?php  echo ($nbMotsPhrase) ?> "   contient   <?php  echo strlen($nbMotsPhrase) ?>   caractères </p> 
 
 
-    <h4>Exercice 2</h4>
+    <h4>2</h4>
     <!-- Ecrire un algorithme permettant de compter le nombre de mots contenus dans une phrase -->
 
     <p> La phrase " <?php  echo ($nbMotsPhrase) ?> "   contient   <?php  echo str_word_count($nbMotsPhrase)  ?>  mots </p>
 
 
-    <h4>Exercice 3</h4>
+    <h4>3</h4>
     <!-- Remplacer un mot dans une phrase  -->
 
     <?php
@@ -37,12 +37,12 @@
     <p> Ancienne phrase : " <?php  echo ($nbMotsPhrase) ?> " <br> Nouvelle phrase : "  <?php echo strtr("Notre Formation DL commence aujourd'hui", $nbMotsPhrase2) ?> "</p>
 
     
-    <h4>Exercice 3 (autre version)</h4>
+    <h4>3 (autre version)</h4>
 
     <p> Ancienne phrase : " <?php  echo ($nbMotsPhrase) ?> " <br> Nouvelle phrase : "  <?php  echo str_replace("aujourd'hui", "demain", $nbMotsPhrase) ?> "</p>
 
 
-    <h4>Exercice 4</h4>
+    <h4>4</h4>
     <!-- Ecrire un algorithme permettant de savoir si une phrase est palindrome -->
 
     <p>
@@ -70,7 +70,7 @@
 
 
 
-    <h4>Exercice 5</h4>
+    <h4>5</h4>
     <!-- Ecrire un algorithme qui déclare une valeur en francs et qui la convertit en euros -->
 
     <?php
@@ -85,7 +85,7 @@
 
 
 
-    <h4>Exercice 5 (autre version)</h4>
+    <h4>5 (autre version)</h4>
 
     <?php
 
@@ -102,7 +102,7 @@
 
 
 
-    <h4>Exercice 6</h4>
+    <h4>6</h4>
     <!-- Ecrire un algorithme permettant de calculer un montant de facture à régler à partir de la quantité 
     d’articles, son prix hors taxe et un taux de TVA -->
 
@@ -126,7 +126,7 @@
 
 
 
-    <h4>Exercice 7</h4>
+    <h4>7</h4>
     <!-- Ecrire un algorithme permettant de renvoyer la catégorie d’un enfant en fonction de son âge -->
 
     <p>
@@ -148,7 +148,7 @@
 
 
 
-    <h4>Exercice 7 (autre version)</h4>
+    <h4>7 (autre version)</h4>
 
     <?php
 
@@ -180,7 +180,7 @@
 
 
 
-    <h4>Exercice 8</h4>
+    <h4>8</h4>
     <!-- Ecrire un algorithme qui renvoie la table de multiplication d’un nombre -->
 
     <p> 
@@ -199,7 +199,7 @@
 
 
 
-    <h4>Exercice 9</h4>
+    <h4>9</h4>
     <!-- Nous souhaitons savoir si une personne est imposable en fonction de son âge et de son sexe
     Si la personne est une femme dont l’âge est compris entre 18 et 35 ans ou si c’est un homme de 
     plus de 20 ans, alors celle-ci est imposable -->
@@ -227,7 +227,7 @@
 
 
 
-    <h4>Exercice 10</h4>
+    <h4>10</h4>
     <!-- A partir d’un montant à payer et d’une somme versée pour régler un achat, écrire l’algorithme qui 
     affiche à un utilisateur un rendu de monnaie -->
 
@@ -278,7 +278,7 @@
 
 
 
-    <h4>Exercice 10 (version avancé)</h4>
+    <h4>10 (version avancé)</h4>
 
     <?php
 
@@ -328,7 +328,7 @@
 
 
 
-    <h4>Exercice 11</h4>
+    <h4>11</h4>
     <!-- Initialiser un tableau de x marques de voitures. Ecrire un algorithme permettant de parcourir ce 
     tableau et d’en afficher le contenu -->
 
@@ -348,7 +348,7 @@
 
 
 
-    <h4>Exercice 11 (Version algorithme)</h4>
+    <h4>11 (Version algorithme)</h4>
     
     <p> Il y'a <?php echo count($tableauVoiture) ?> marques de voitures dans le tableau :  <br> </p>
     <ul>
@@ -363,7 +363,7 @@
 
 
 
-    <h4>Exercice 11 (autre version)</h4>
+    <h4>11 (autre version)</h4>
 
     <?php
 
@@ -381,7 +381,7 @@
 
 
 
-    <h4>Exercice 12</h4>
+    <h4>12</h4>
     <!-- dire bonjour aux différentes personnes dans leur langue respective -->
 
     <p>
@@ -397,7 +397,7 @@
 
 
 
-    <h4>Exercice 12 (autre version)</h4>
+    <h4>12 (autre version)</h4>
 
     <?php
 
@@ -415,7 +415,7 @@
 
 
 
-    <h4>Exercice 13</h4>
+    <h4>13</h4>
     <!-- Calculer la moyenne générale d'un élève -->
 
     <?php
@@ -443,7 +443,7 @@
 
 
 
-    <h4>Exercice 13 (autre version)</h4>
+    <h4>13 (autre version)</h4>
 
     <?php
         $notes = [10, 12, 8, 19, 3, 16, 11, 13, 9];
@@ -455,7 +455,7 @@
 
 
 
-    <h4>Exercice 14</h4>
+    <h4>14</h4>
     <!-- Calculer l'âge exact d'une personne à partir de sa date de naissance (en années, mois, jours) -->
 
     <?php
@@ -546,7 +546,7 @@
 
     
 
-    <h4>Exercice 14 et 15 (autre version avec le construct)</h4>
+    <h4>14 et 15 (autre version avec le construct)</h4>
     <!-- Créer une classe Personne (nom, prénom et date de naissance)
     Instancier 2 personnes et afficher leurs informations : nom, prénom et âge -->
 
